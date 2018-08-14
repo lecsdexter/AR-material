@@ -8754,7 +8754,7 @@ AFRAME.registerSystem('arjs', {
 				// create sessionDebugUI
 				var sessionDebugUI = new ARjs.SessionDebugUI(arSession)
 				containerElement.appendChild(sessionDebugUI.domElement)
-			}/*
+			}*/
 
 		})
 
