@@ -8317,7 +8317,7 @@ AFRAME.registerComponent('arjs-anchor', {
 			//////////////////////////////////////////////////////////////////////////////
 			//		honor .debugUIEnabled
 			//////////////////////////////////////////////////////////////////////////////
-			if( arjsSystem.data.debugUIEnabled ){
+			/*if( arjsSystem.data.debugUIEnabled ){
 				// get or create containerElement
 				var containerElement = document.querySelector('#arjsDebugUIContainer')
 				if( containerElement === null ){
@@ -8329,7 +8329,8 @@ AFRAME.registerComponent('arjs-anchor', {
 				// create anchorDebugUI
 				var anchorDebugUI = new ARjs.AnchorDebugUI(arAnchor)
 				containerElement.appendChild(anchorDebugUI.domElement)
-			}
+			}*/
+			
 		}, 1000/60)
 	},
 	remove : function(){
