@@ -1,0 +1,3 @@
+Este es un archivo de prueba generado desde Bitbucket Pipelines
+Fecha: Mon Oct 26 04:33:03 UTC 2026
+Pipeline ejecutado correctamente ✅
